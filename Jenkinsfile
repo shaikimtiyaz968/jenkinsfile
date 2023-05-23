@@ -9,7 +9,7 @@ node{
            checkout scm
   }  
 stage('step1'){
-  sshPut remote: remote, from: 'ACfile/sh', into: '/home/opc'
+  sshPut remote: remote, from: 'ACfile.sh', into: '/home/opc'
  }
   stage('step2'){
      sshScript remote: remote, script: "ACfile.sh"
