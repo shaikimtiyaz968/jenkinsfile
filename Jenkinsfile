@@ -17,7 +17,7 @@ stage('step1'){
   stage('step2'){
  sshCommand remote: remote, command: "pwd"
  }
-  stage('step2'){
+  stage('step3'){
  sshRemove remote: remote, path: "/home/opc/Acfile.sh"
  }
 }
