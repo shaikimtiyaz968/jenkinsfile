@@ -6,4 +6,4 @@ echo " integration for build"
 
 cd /home/opc
 
-mkdir -p /home/opc/shaikimtiyaz968-$(date +%s)
+mkdir -p /home/opc/shaikimtiyaz968_new
