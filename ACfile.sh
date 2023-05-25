@@ -2,6 +2,7 @@
 #!/bin/sh
 
 echo "new pipeline"
+echo " integration for build"
 
 cd /home/opc
 
